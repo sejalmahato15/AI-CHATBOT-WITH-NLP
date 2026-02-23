@@ -18,3 +18,7 @@ To develop and run the project, Visual Studio Code was used as the code editor. 
 The chatbot works by first preprocessing the user input. This includes converting text into lowercase, breaking sentences into words using tokenization, and removing unnecessary words such as stopwords (e.g., "is", "the", "and"). This helps the chatbot focus only on important keywords. The tokenization process is handled using the punkt tokenizer provided by NLTK.
 After preprocessing, the chatbot checks the input against a predefined knowledge base. The knowledge base is a dictionary containing common keywords such as "python", "AI", "NLP", and "internship", along with their respective responses. If a match is found, the chatbot returns the corresponding answer. If no match is found, it responds with a default message indicating that it does not understand the query.
 Additionally, the chatbot is capable of recognizing basic greetings like "hello", "hi", and "hey" and responds appropriately. The conversation continues in a loop until the user types "bye", which terminates the program.* 
+
+#output
+
+<img width="1137" height="559" alt="Image" src="https://github.com/user-attachments/assets/f69127f2-b9c2-4d16-8db5-4a58b2c678fd" />
